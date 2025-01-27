@@ -23,3 +23,12 @@ resource rg 'Microsoft.Resources/resourceGroups@2022-09-01' = {
   location: location
   tags: tags
 }
+
+module s2svpn './resources.bicep' = {
+  scope: rg
+  name: 'vpn-${environmentName}'
+  params: {
+    sharedKey: 'A1B2C3D4E5'
+
+  }
+}
