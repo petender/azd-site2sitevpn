@@ -43,7 +43,7 @@ This scenario deploys 3 Azure Virtual Network (VPN) Gateways across 3 different 
     - vNetx-Gateway -> Virtual Network Gateway
     - vNetx-location -> Virtual Network and Subnets for each region
 
-<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/ResourceGroup_Overview.png)" alt="S2S VPN Resource Group" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/ResourceGroup_Overview.png" alt="S2S VPN Resource Group" style="width:70%;">
 <br></br>
 
 <img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/DemoGuides/S2SVPN/VPN_Connections.png" alt="S2S VPN Connections" style="width:70%;">
