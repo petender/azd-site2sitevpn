@@ -46,10 +46,10 @@ This scenario deploys 3 Azure Virtual Network (VPN) Gateways across 3 different 
 <img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/ResourceGroup_Overview.png" alt="S2S VPN Resource Group" style="width:70%;">
 <br></br>
 
-<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/DemoGuides/S2SVPN/VPN_Connections.png" alt="S2S VPN Connections" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/VPN_Connections.png" alt="S2S VPN Connections" style="width:70%;">
 <br></br>
 
-<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/DemoGuides/S2SVPN/VPN_Gateways.png" alt="S2S VPN Gateways" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/VPN_Gateways.png" alt="S2S VPN Gateways" style="width:70%;">
 <br></br>
 
 ### 2. What can I demo from this scenario after deployment
@@ -62,13 +62,13 @@ This scenario is mainly to be used to highlight several of the VPN Gateway and C
 1. Select **vNet1-to-vNet2** Connection. 
 1. From the **vNet1-to-vNet2** Connection blade, select Settings/**SharedKey**; explain this key must be the same between the sending/receiving connectors to establish the connection.
 
-<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/DemoGuides/S2SVPN/VPN_SharedKey.png" alt="S2S VPN Shared Key" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/VPN_SharedKey.png" alt="S2S VPN Shared Key" style="width:70%;">
 <br></br>
 
 
 1. From the **vNet1-to-vNet2** Connection blade, select Settings/**Configuration**, and explain several of the options here.
 
-<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/DemoGuides/S2SVPN/VPN_Configuration.png" alt="S2S VPN Configuration" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/VPN_Configuration.png" alt="S2S VPN Configuration" style="width:70%;">
 <br></br>
 
 <div style="background: lightblue; 
@@ -88,14 +88,14 @@ This scenario is mainly to be used to highlight several of the VPN Gateway and C
 1. Specify a **Storage Account** and a **Container** which is used to store the troubleshooting logfiles. 
 1. Click **Start Troubleshooting** to run the troubleshooting helper from **Network Watcher**.
 
-<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/DemoGuides/S2SVPN/VPN_Troubleshooting.png" alt="S2S VPN Troubleshooting" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/VPN_Troubleshooting.png" alt="S2S VPN Troubleshooting" style="width:70%;">
 <br></br>
 
 
 1. After a few minutes, Network Watcher indicates an **Unhealthy** vNetx-Gateway.
 1. From the **Status** details below, it clearly identifies **The S2S VPN Tunnels could not connect because of a IKE or connectivity issues**, which could be translated as **Maybe your Shared Keys are not correct between both**.
 
-<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/DemoGuides/S2SVPN/VPN_Troubleshooting2.png" alt="S2S VPN Troubleshooting" style="width:70%;">
+<img src="https://raw.githubusercontent.com/petender/azd-site2sitevpn/refs/heads/main/Demoguides/S2SVPN/VPN_Troubleshooting2.png" alt="S2S VPN Troubleshooting" style="width:70%;">
 <br></br>
 
 [comment]: <> (this is the closing section of the demo steps. Please do not change anything here to keep the layout consistant with the other demoguides.)
@@ -110,7 +110,3 @@ This scenario is mainly to be used to highlight several of the VPN Gateway and C
 
 **Note:** This is the end of the current demo guide instructions.
 </div>
-
-
-
-
